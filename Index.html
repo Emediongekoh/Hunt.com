@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="keywords" content="topics,love,depression,hope,courage,entertainment,exercise"/>
+<meta name="Author" content="Emediong Ekoh"/>
+<meta name="Description" content="You can upload a topic you want us to write about and also read our article"/>
+<meta name="title" content="TopArticles"/>
+   <title>TopArticles</title>
+<style>
+#logo{
+text-align:center;
+background-color:red;
+padding:15px;
+margin:-15px;
+color:white;
+font-family:courier;
+margin-top:25px;
+}
+#nav{
+background-color:red;
+padding:15px;
+margin:-10px;
+position:fixed;
+top:10px;
+width:100%;
+display:;
+flex-direction:row;
+text-align:center;
+}
+#nav > a{
+text-decoration:none;
+color:white;
+font-family:courier;
+font-weight:bold;
+padding-left:20px;
+padding-right:20px;
+
+}
+#nav > a:hover{
+border-bottom-style:solid;
+
+}
+
+#books>img{
+width:100%;
+height:auto;
+}
+#books{
+padding:0px;
+margin-left:-8px;
+margin-right:-8px;
+margin-top:-25px;
+}
+#books>h2{
+text-align:center;
+font-family:courier;
+color:red;
+}
+#SS{
+text-align:center;
+
+}
+#search{
+border:2px solid red; 
+padding:5px;
+border-radius:5px;
+outline:none;
+}
+#submit{
+background-color:red;
+border:none;
+color:white;
+padding:7px;
+border-radius:5px;
+outline:none;
+}
+#Attop{
+text-align:center;
+}
+#Attop>p{
+border-bottom-style:solid;
+border-bottom-color:red;
+color:red;
+font-family:courier;
+}
+.list{
+border-bottom-style:;
+border-bottom-color:;
+padding:20px;
+background-color:lightgrey;
+border-radius:3px;
+margin:15px;
+box-shadow:1px 2px 3px black; 
+width:;
+float:;
+}
+.list>a{
+text-decoration:none;
+font-family:;
+font-weight:bold;
+color:red;
+}
+#donate{
+background-color:red;
+padding:5px;
+position:fixed;
+left:130px;
+bottom:40px;  
+border-radius:5px;    
+text-align:center;
+}
+#donate> a{
+text-decoration:none;
+color:white;
+}
+#req{
+text-align:center;
+}
+.in{
+padding:25px;
+border:1px solid red; 
+}
+#req>textarea{
+padding:40px;
+border:1px solid red; 
+}
+#sub{
+outline:none;
+border:none;
+padding:15px;
+padding-left:90px;
+padding-right:90px;
+background-color:red;
+color:white;
+}
+#req>h3{
+font-family:courier;
+color:red;
+}
+#req>label{
+color:red;
+font-family:courier;
+
+}
+#ffoot{
+text-align:center;
+background-color:grey;
+color:white;
+font-family:courier;
+
+}
+#ffoot>a{
+text-decoration:none;
+color:white;
+font-family:courier;
+}
+#ads{
+background-color:red;
+padding:5px;
+border-radius:5px;
+}
+#copy{
+background-color:black;
+color:white;
+padding-top:2px;
+}
+#next>button{
+border:none;
+outline:none;
+padding:20px;
+background-color:red;
+color:white;
+margin:5px;
+border-radius:5px;
+}
+#next{
+text-align:right;
+}
+#next>button > a{
+text-decoration:none;
+color:white;
+font-family:courier;
+}
+#log{
+margin:10px;
+background-color:red;
+padding:15px;
+border-radius:5px;
+}
+#log>a{
+text-decoration:none;
+color:white;
+font-size:20px;
+}
+@keyframes love{
+from{
+font-size:18px;
+
+}
+to{
+font-size:10px;
+
+}
+
+}
+#love{
+animation-name:love;
+animation-duration:3s;
+animation-iteration-count:infinite;
+animation-timing-function:ease-in-out;
+}
+#downav{
+text-align:center;
+background-color:red;
+padding:15px;
+position:fixed;
+width:100%;
+top:92%;
+border-top-style:solid;
+border-top-color:black;
+}
+#downav > a{
+color:white;
+font-weight:bold;
+text-decoration:none;
+font-family:courier;
+padding-left:10px;
+padding-right:25px;
+}
+#online{
+background:skyblue;
+border-radius:15px;
+padding-left:100px;
+padding-right:100px;
+color:white;
+}
+</style>
+</head>
+<body>
+<header id="header">
+
+<br/>
+<nav id="nav">
+<span id="online">loading</span><br/><br/>
+<a href="index.html">Home</a>
+<a href="#">Upload</a>
+<a href="#">Discover</a>
+</nav><br/><br/>
+<h2 id="logo">TOPICZ</h2>
+</header>
+<br/>
+<br/>
+<div id="books">
+<img src="Books.jpg" alt="books" />
+<div id="SS">
+<br/>
+<div id="log">
+
+<a href="#">LOG-IN /SIGN-UP</a>
+
+</div>
+<input id="search" type="search" placeholder="Article name"/>
+<input id="submit" type="submit" value="search"/>                             
+<h2>READ OUR ARTICLES</h2>
+</div>
+<div id="Attop">
+<p>ARTICLE TOPICS</p>
+</div>
+<main>
+<div class="list">
+<a href="#" class="e">DEPRESSION»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">ANXIETY»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">LOVE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">HEALTH»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">PEACE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">HOW TO KNOW YOU ARE IN LOVE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">AVOIDING PEER PRESSURE»» </a>
+</div>
+<div class="list">
+<a href="#" class="se">SELF ESTEEM»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">EXERCISE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">INTEGRITY»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">HOW TO OVERCOME SEXUAL IMMORALITY»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">SECURING YOUR RELATIONSHIP»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">FORGIVENESS»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">HOW TO BE HUMBLE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">AVOIDING BAD FRIENDS»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">TYPES OF FRIENDS»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">JEALOUSY»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">DOING AWAY WITH STIGMA»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">WHAT IS ENVY»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">RIGHT WAYS TO LEARN IN SCHOOL»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">WAYS TO SUCCESS»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">MAKING MONEY»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">HOW TO LOSE WEIGHT»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">AVOIDING BEEN LOST»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">HAVING FUN»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">BEST WAYS TO TREAT YOUR WIFE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">RULES IN DATING»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">WAYS TO KNOW SHE LOVES YOU»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">WHY YOU SHOULD NOT HATE»»</a>
+</div>
+<div class="list">
+<a href="#" class="se">LAZINESS»»</a>
+</div>
+<br/>
+<div id="next">
+<button><a href="#">NEXT»»</a></button>
+</div>
+
+<div id="req">
+<br/>
+<hr/>
+<h3>REQUEST FOR A TOPIC</h3>
+<input class="in" type="text" placeholder="First name" required/><br/><br/>
+<input class="in" type="text" placeholder="Surname" required/><br/><br/>
+<input class="in" type="tel" placeholder="phone number" required/><br/><br/>
+<input class="in" type="email" placeholder="Email" required /><br/><br/>
+<label>male</label>
+<input type="radio" name="sex" value="male" />
+<label>female</label>
+<input type="radio" name="sex" value="female"/><br/><br/>
+<textarea placeholder="type the topic"></textarea><br/>
+<input id="sub" type="submit" value="post"/>
+</div>
+</main>
+<footer id="foot">
+<div id="ffoot">
+<p>visit us on our handles</p>
+<a href="#"><img src="f.png" width="30" height="30"/></a>
+<a href="#"><img src="w.png" width="30" height="30"/></a><br/><br/>
+<div id="donate">
+<a href="#" id="don"><span id="love">💝</span> donate</a>
+</div>
+<div id="downav">
+<a href="">Notify<span id="notify"></span></a>
+<a href="#">profile</a>
+<a href="#">About</a>
+</div>
+<a id="ads" href="#">advertise with us</a>
+
+<div id="copy">
+<p>copyright ©,2021,HUNTA PLC™</p><br/>
+<br/>
+<br/>
+</div>
+</div>
+</footer>
+<script>
+ function notify(){
+document.getElementById("notify").innerHTML="1";
+document.getElementById("notify").style.background="skyblue";
+document.getElementById("notify").style.padding="12px";
+document.getElementById("notify").style.borderRadius="20px";
+}
+setTimeout(notify,2000);
+
+function line(){
+
+
+if(navigator.onLine){
+document.getElementById("online").innerHTML="online";
+document.getElementById("online").style.background="lime";
+
+
+}else{
+
+document.getElementById("online").innerHTML="offline";
+document.getElementById("online").style.background="black";
+
+
+
+}
+
+}
+setInterval(line,1000);
+</script>
+</body>
+</html>
